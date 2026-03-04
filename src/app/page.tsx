@@ -268,8 +268,8 @@ export default function HomePage() {
           animationType="entrance-slide"
           background={{ variant: "plain" }}
           buttons={[
-            { text: "Join Now", href: "/donate" },
-            { text: "Browse Medicines", href: "/order" },
+            { text: "Start Donating Today", href: "/donate" },
+            { text: "See Affordable Options", href: "/order" },
           ]}
           useInvertedBackground={false}
         />
