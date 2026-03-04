@@ -108,7 +108,7 @@ export default function AboutPage() {
                 "I was able to donate unused prescriptions from a failed treatment, knowing they'd help someone in need. The verification process gave me peace of mind.",
               rating: 5,
               imageSrc:
-                "http://img.b2bpic.net/free-photo/portrait-smiling-nurse-looking-camera-while-standing-clinic_637285-5031.jpg",
+                "http://img.b2bpic.net/free-photo/portrait-smiling-nurse-looking-camera-while-standing-clinic_637285-5031.jpg?_wi=2",
               imageAlt: "Sarah Johnson",
             },
             {
@@ -119,7 +119,7 @@ export default function AboutPage() {
                 "Couldn't afford my regular medications. MediShare helped me get the vitamins and supplements I need at prices I can manage. The chat feature explained interactions perfectly.",
               rating: 5,
               imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-portrait-joyful-male-doctor_171337-1489.jpg",
+                "http://img.b2bpic.net/free-photo/close-up-portrait-joyful-male-doctor_171337-1489.jpg?_wi=2",
               imageAlt: "Michael Chen",
             },
             {
@@ -130,7 +130,7 @@ export default function AboutPage() {
                 "As an NGO worker, I needed affordable medications for our community clinic. MediShare's bulk donation program has been transformative for our healthcare initiatives.",
               rating: 5,
               imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-smiley-woman-therapy_23-2148928886.jpg",
+                "http://img.b2bpic.net/free-photo/close-up-smiley-woman-therapy_23-2148928886.jpg?_wi=2",
               imageAlt: "Emily Rodriguez",
             },
           ]}
