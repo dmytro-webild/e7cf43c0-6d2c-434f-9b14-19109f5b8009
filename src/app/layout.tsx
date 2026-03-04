@@ -1,59 +1,20 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
-import { ServiceWrapper } from "@/components/ServiceWrapper";
-import Tag from "@/tag/Tag";
 
-const poppins = Poppins({
-  variable: "--font-poppins",
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "MediShare - Community Medicine Donation & Redistribution",
-  description: "Donate unused medications safely or order affordable donated medicines from verified community members. Reduce waste, address affordability barriers, and build healthcare equity together.",
-  keywords: "medicine donation, affordable medications, pharmaceutical redistribution, healthcare community, medication waste, safe disposal",
-  metadataBase: new URL("https://medishare.community"),
-  alternates: {
-    canonical: "https://medishare.community",
-  },
-  openGraph: {
-    title: "MediShare - Share Medicine, Save Lives",
-    description: "Join a community-driven platform for responsible medication redistribution and healthcare accessibility.",
-    type: "website",
-    siteName: "MediShare",
-    images: [
-      {
-        url: "http://img.b2bpic.net/free-photo/friendly-charity-workers-aid-needy_482257-84843.jpg",
-        alt: "Medicine donation and redistribution community",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "MediShare - Share Medicine, Save Lives",
-    description: "Community-driven medication redistribution for healthcare equity",
-    images: ["http://img.b2bpic.net/free-photo/friendly-charity-workers-aid-needy_482257-84843.jpg"],
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-};
+  title: "MediShare - Community Healthcare Platform",  description: "Share medicine, save lives, build community. Donate unused medications safely or order affordable medicines."};
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <ServiceWrapper>
-        <body className={`${poppins.variable} antialiased`}>
-          <Tag />
-          {children}
-        
+    <html lang="en">
+      <body className={inter.className}>{children}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -1421,7 +1382,6 @@ export default function RootLayout({
           }}
         />
       </body>
-      </ServiceWrapper>
     </html>
   );
 }
