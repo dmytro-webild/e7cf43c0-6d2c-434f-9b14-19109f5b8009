@@ -269,7 +269,7 @@ export default function HomePage() {
           background={{ variant: "plain" }}
           buttons={[
             { text: "Start Donating Today", href: "/donate" },
-            { text: "See Affordable Options", href: "/order" },
+            { text: "Browse Affordable Medicines", href: "/order" },
           ]}
           useInvertedBackground={false}
         />
