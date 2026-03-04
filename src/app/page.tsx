@@ -8,6 +8,7 @@ import ProductCardTwo from "@/components/sections/product/ProductCardTwo";
 import TextAbout from "@/components/sections/about/TextAbout";
 import MetricCardFourteen from "@/components/sections/metrics/MetricCardFourteen";
 import TestimonialCardThirteen from "@/components/sections/testimonial/TestimonialCardThirteen";
+import FaqDouble from "@/components/sections/faq/FaqDouble";
 import ContactText from "@/components/sections/contact/ContactText";
 import FooterSimple from "@/components/sections/footer/FooterSimple";
 import { Heart, CheckCircle, Shield, Leaf, Users } from "lucide-react";
@@ -59,6 +60,7 @@ export default function HomePage() {
               imageSrc:
                 "http://img.b2bpic.net/free-photo/attenders-group-therapy-joining-hands-unity-meeting_637285-9993.jpg",              imageAlt: "Community members supporting healthcare"},
           ]}
+          mediaAnimation="slide-up"
           rating={5}
           ratingText="Trusted by 10,000+ community members"
           buttons={[
@@ -230,6 +232,32 @@ export default function HomePage() {
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
+        />
+      </div>
+
+      {/* FAQ Section */}
+      <div id="faq" data-section="faq">
+        <FaqDouble
+          title="Frequently Asked Questions"
+          description="Find answers about donating, ordering, safety, and using our medicine guidance chat"
+          tag="Help & Support"
+          tagAnimation="slide-up"
+          faqs={[
+            {id: "1", title: "What medicines can I donate?", content: "You can donate over-the-counter medications, prescription medications (with proper verification), and supplements that are: unopened/sealed, within expiry date, stored properly, and approved by our verification team. All donations require manufacturing and expiry dates."},
+            {id: "2", title: "How is safety ensured?", content: "Every donation is verified by licensed healthcare professionals. We check authenticity, confirm expiry dates, verify manufacturing dates, inspect packaging, and ensure regulatory compliance. No expired or compromised medications ever reach our community."},
+            {id: "3", title: "How do I order medicines?", content: "Browse our verified medicine catalog, check manufacturing/expiry dates, add items to your cart, and choose pickup or delivery. Real-time tracking provided for all orders. The floating chat feature helps with any questions about medications."},
+            {id: "4", title: "What's the floating chat feature?", content: "Our medicine guidance chat appears as a non-intrusive corner feature with FAQs about medication usage, side effects, interactions, and proper handling. It stays accessible without interrupting your browsing or donation process."},
+            {id: "5", title: "Is my information private and secure?", content: "Yes. We use bank-level encryption, comply with healthcare privacy regulations, never share personal health information, and maintain secure identity verification. Your medical history remains confidential."},
+            {id: "6", title: "What if I have questions about a specific medicine?", content: "Use our 24/7 floating medicine guidance chat for immediate answers about any medication. You'll find information about usage instructions, potential side effects, interactions, and safe handling practices."},
+            {id: "7", title: "Can I donate expired medications?", content: "No. We accept only medications within their expiry date. Expired medications must be disposed of through proper pharmacy disposal programs. You must enter the exact expiry date during donation."},
+            {id: "8", title: "How are delivery and pickup managed?", content: "After ordering, you can select pickup at verified community locations or arrange safe delivery. All medicines are packaged securely with proper documentation of manufacturing and expiry dates included."},
+            {id: "9", title: "What happens to my donation?", content: "Your donation goes through our verification process, is matched with community members who need affordable medicines, and gets delivered safely. You receive updates on the impact of your donation through our impact dashboard."},
+            {id: "10", title: "Is there a cost to donate or order?", content: "Donations are free. Ordering is at deeply reduced prices (50-80% below retail). We sustain through community donations, NGO partnerships, and healthcare advocacy grants—never through excessive markups."}
+          ]}
+          faqsAnimation="slide-up"
+          textboxLayout="default"
+          useInvertedBackground={true}
+          animationType="smooth"
         />
       </div>
 
