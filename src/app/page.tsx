@@ -88,7 +88,7 @@ export default function HomePage() {
               description:
                 "Create a secure account and complete identity verification to ensure community safety and regulatory compliance",
               imageSrc:
-                "http://img.b2bpic.net/free-vector/mobile-face-scan_24908-56399.jpg",
+                "http://img.b2bpic.net/free-vector/mobile-face-scan_24908-56399.jpg?_wi=1",
               imageAlt: "Verification process",
             },
             {
@@ -97,7 +97,7 @@ export default function HomePage() {
               description:
                 "Submit unused medications with expiry dates and manufacturing dates for donation or browse verified donated medicines",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/pharmacist-holding-tablet-by-shelf-full-medicine-drug-store-checking-medication-availability-specification_342744-319.jpg",
+                "http://img.b2bpic.net/free-photo/pharmacist-holding-tablet-by-shelf-full-medicine-drug-store-checking-medication-availability-specification_342744-319.jpg?_wi=1",
               imageAlt: "Browse medicines",
             },
             {
@@ -106,7 +106,7 @@ export default function HomePage() {
               description:
                 "Place orders for affordable medicines with real-time tracking, safe pickup or delivery, and access to medicine guidance chat",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/african-american-female-verifying-shipment-details-awb-labels-using-package-tracking-software_482257-132623.jpg",
+                "http://img.b2bpic.net/free-photo/african-american-female-verifying-shipment-details-awb-labels-using-package-tracking-software_482257-132623.jpg?_wi=1",
               imageAlt: "Delivery and tracking",
             },
             {
@@ -143,7 +143,7 @@ export default function HomePage() {
               rating: 5,
               reviewCount: "234",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/white-tablets-from-blue-pill-bottle_181624-899.jpg",
+                "http://img.b2bpic.net/free-photo/white-tablets-from-blue-pill-bottle_181624-899.jpg?_wi=1",
               imageAlt: "Vitamin C supplement bottle",
             },
             {
@@ -154,7 +154,7 @@ export default function HomePage() {
               rating: 5,
               reviewCount: "512",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/happy-young-fit-girl-doing-sports-home-shows-dietary-supplements-taking-vitamins-healthy-body_1258-189563.jpg",
+                "http://img.b2bpic.net/free-photo/happy-young-fit-girl-doing-sports-home-shows-dietary-supplements-taking-vitamins-healthy-body_1258-189563.jpg?_wi=1",
               imageAlt: "Multivitamin supplement bottle",
             },
             {
@@ -165,7 +165,7 @@ export default function HomePage() {
               rating: 4,
               reviewCount: "189",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/old-man-having-pills-hand-healthcare-treatment-aging-concept_1157-39274.jpg",
+                "http://img.b2bpic.net/free-photo/old-man-having-pills-hand-healthcare-treatment-aging-concept_1157-39274.jpg?_wi=1",
               imageAlt: "Pain relief medication package",
             },
             {
@@ -176,7 +176,7 @@ export default function HomePage() {
               rating: 5,
               reviewCount: "156",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/young-cute-female-posing-indoor_344912-967.jpg",
+                "http://img.b2bpic.net/free-photo/young-cute-female-posing-indoor_344912-967.jpg?_wi=1",
               imageAlt: "Digestive supplement bottle",
             },
             {
@@ -187,7 +187,7 @@ export default function HomePage() {
               rating: 5,
               reviewCount: "423",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/coronavirus-child-mother-with-daughter-child-lying-bed-woman-medical-mask_1157-43343.jpg",
+                "http://img.b2bpic.net/free-photo/coronavirus-child-mother-with-daughter-child-lying-bed-woman-medical-mask_1157-43343.jpg?_wi=1",
               imageAlt: "Allergy relief medication",
             },
             {
@@ -198,7 +198,7 @@ export default function HomePage() {
               rating: 4,
               reviewCount: "278",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/person-with-disease-infection-analyzing-package-leaflet_482257-17729.jpg",
+                "http://img.b2bpic.net/free-photo/person-with-disease-infection-analyzing-package-leaflet_482257-17729.jpg?_wi=1",
               imageAlt: "Cold and flu medication package",
             },
           ]}
@@ -280,7 +280,7 @@ export default function HomePage() {
                 "I was able to donate unused prescriptions from a failed treatment, knowing they'd help someone in need. The verification process gave me peace of mind.",
               rating: 5,
               imageSrc:
-                "http://img.b2bpic.net/free-photo/portrait-smiling-nurse-looking-camera-while-standing-clinic_637285-5031.jpg",
+                "http://img.b2bpic.net/free-photo/portrait-smiling-nurse-looking-camera-while-standing-clinic_637285-5031.jpg?_wi=1",
               imageAlt: "Sarah Johnson",
             },
             {
@@ -291,7 +291,7 @@ export default function HomePage() {
                 "Couldn't afford my regular medications. MediShare helped me get the vitamins and supplements I need at prices I can manage. The chat feature explained interactions perfectly.",
               rating: 5,
               imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-portrait-joyful-male-doctor_171337-1489.jpg",
+                "http://img.b2bpic.net/free-photo/close-up-portrait-joyful-male-doctor_171337-1489.jpg?_wi=1",
               imageAlt: "Michael Chen",
             },
             {
@@ -302,7 +302,7 @@ export default function HomePage() {
                 "As an NGO worker, I needed affordable medications for our community clinic. MediShare's bulk donation program has been transformative for our healthcare initiatives.",
               rating: 5,
               imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-smiley-woman-therapy_23-2148928886.jpg",
+                "http://img.b2bpic.net/free-photo/close-up-smiley-woman-therapy_23-2148928886.jpg?_wi=1",
               imageAlt: "Emily Rodriguez",
             },
             {
