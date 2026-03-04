@@ -55,7 +55,7 @@ export default function OrderPage() {
               rating: 5,
               reviewCount: "234",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/white-tablets-from-blue-pill-bottle_181624-899.jpg",
+                "http://img.b2bpic.net/free-photo/white-tablets-from-blue-pill-bottle_181624-899.jpg?_wi=2",
               imageAlt: "Vitamin C supplement bottle",
             },
             {
@@ -66,7 +66,7 @@ export default function OrderPage() {
               rating: 5,
               reviewCount: "512",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/happy-young-fit-girl-doing-sports-home-shows-dietary-supplements-taking-vitamins-healthy-body_1258-189563.jpg",
+                "http://img.b2bpic.net/free-photo/happy-young-fit-girl-doing-sports-home-shows-dietary-supplements-taking-vitamins-healthy-body_1258-189563.jpg?_wi=2",
               imageAlt: "Multivitamin supplement bottle",
             },
             {
@@ -77,7 +77,7 @@ export default function OrderPage() {
               rating: 4,
               reviewCount: "189",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/old-man-having-pills-hand-healthcare-treatment-aging-concept_1157-39274.jpg",
+                "http://img.b2bpic.net/free-photo/old-man-having-pills-hand-healthcare-treatment-aging-concept_1157-39274.jpg?_wi=2",
               imageAlt: "Pain relief medication package",
             },
             {
@@ -88,7 +88,7 @@ export default function OrderPage() {
               rating: 5,
               reviewCount: "156",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/young-cute-female-posing-indoor_344912-967.jpg",
+                "http://img.b2bpic.net/free-photo/young-cute-female-posing-indoor_344912-967.jpg?_wi=2",
               imageAlt: "Digestive supplement bottle",
             },
             {
@@ -99,7 +99,7 @@ export default function OrderPage() {
               rating: 5,
               reviewCount: "423",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/coronavirus-child-mother-with-daughter-child-lying-bed-woman-medical-mask_1157-43343.jpg",
+                "http://img.b2bpic.net/free-photo/coronavirus-child-mother-with-daughter-child-lying-bed-woman-medical-mask_1157-43343.jpg?_wi=2",
               imageAlt: "Allergy relief medication",
             },
             {
@@ -110,7 +110,7 @@ export default function OrderPage() {
               rating: 4,
               reviewCount: "278",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/person-with-disease-infection-analyzing-package-leaflet_482257-17729.jpg",
+                "http://img.b2bpic.net/free-photo/person-with-disease-infection-analyzing-package-leaflet_482257-17729.jpg?_wi=2",
               imageAlt: "Cold and flu medication package",
             },
           ]}
