@@ -41,7 +41,7 @@ export default function ContactPage() {
         <ContactText
           text="Ready to be part of a healthcare revolution? Join our community of donors and recipients making medicine accessible to everyone."
           animationType="entrance-slide"
-          background={{ variant: "circleGradient" }}
+          background={{ variant: "plain" }}
           buttons={[
             { text: "Join Now", href: "/donate" },
             { text: "Browse Medicines", href: "/order" },
@@ -71,7 +71,7 @@ export default function ContactPage() {
         <ContactText
           text="Connect with us today and discover how you can make a real difference in your community's healthcare access and sustainability."
           animationType="entrance-slide"
-          background={{ variant: "circleGradient" }}
+          background={{ variant: "plain" }}
           buttons={[
             { text: "Start Your Journey", href: "/" },
             { text: "Learn More", href: "/about" },
@@ -85,8 +85,7 @@ export default function ContactPage() {
         <FooterSimple
           columns={[
             {
-              title: "Platform",
-              items: [
+              title: "Platform",              items: [
                 { label: "Home", href: "/" },
                 { label: "Donate Medicine", href: "/donate" },
                 { label: "Order Medicine", href: "/order" },
@@ -94,8 +93,7 @@ export default function ContactPage() {
               ],
             },
             {
-              title: "Community",
-              items: [
+              title: "Community",              items: [
                 { label: "About Us", href: "/about" },
                 { label: "Our Impact", href: "/" },
                 { label: "Testimonials", href: "/" },
@@ -103,8 +101,7 @@ export default function ContactPage() {
               ],
             },
             {
-              title: "Resources",
-              items: [
+              title: "Resources",              items: [
                 { label: "FAQ", href: "/faq" },
                 { label: "Medicine Guide", href: "#" },
                 { label: "Safety Standards", href: "/" },
@@ -112,8 +109,7 @@ export default function ContactPage() {
               ],
             },
             {
-              title: "Legal",
-              items: [
+              title: "Legal",              items: [
                 { label: "Privacy Policy", href: "#" },
                 { label: "Terms of Service", href: "#" },
                 { label: "Contact Us", href: "/contact" },
